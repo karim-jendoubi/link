@@ -98,3 +98,10 @@ img{
 	  background-repeat: no-repeat;
 	  background-position: 50% 50%;
   }
+  @media (max-width: 800px) {
+	img{
+		border-radius: 5px;
+		width: 30%;
+		height: auto;
+	}
+  }
